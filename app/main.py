@@ -10,7 +10,7 @@ app = FastAPI(title=settings.PROJECT_NAME)
 # link middleware
 app.add_middleware(LoggingMiddleware)
 
-app.include_router(routes_auth.router, tags=["auth"])
+app.include_router(routes_auth.router, tags=["Auth"])
 app.include_router(routes_predict.router, tags=["predict"])
 
 # monitoring using Prometheus
