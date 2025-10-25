@@ -8,10 +8,4 @@ services:
     dockerfilePath: ./Dockerfile
     envVars:
       - key: MODEL_PATH
-        value: app/models/model.joblib
-      - key: API_KEY
-        value: demo-key
-      - key: JWT_SECRET_KEY
-        value: supersecretvalue
-      - key: REDIS_URL
-        value: redis://default:d5ykmQ5Xp63mao9uQa7xmMD1q872NA7I@redis-16218.c266.us-east-1-3.ec2.redns.redis-cloud.com:16218
+        value:  app/models/model.joblib
